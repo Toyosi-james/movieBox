@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Box</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+<div class="header-logo">
+    <div class="header-text">
+    <h1>MOVIE</h1></div>
+    <div class="header-text">
+    <img src="./clapperboard.png" alt=""></div>
+</div>
+<div class="header-nav">
+    <nav>TvShows</nav>
+    <nav>Movies</nav>
+    <nav>RecentlyAdded</nav>
+    <nav>MyList</nav>
+</div>
+    </header>
+<section class="hero" id="hero">
+    <div class="hero-content">
+        <h1 id="hero-text"></h1>
+        <p id="hero-date"></p>
+        <p id="hero-info"></p>
+        <button>Play</button>
+        <button>My List</button>
+
+    </div>
+
+</section>
+<section class="main">
+<section class="popular">
+    <h2>Popular</h2>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper" id="movie-wrapper"></div>
+    </div>
+</section>
+<section class="upcoming">
+    <h2>Upcoming</h2>
+    <div class="swiper myUpcomingSwiper">
+        <div class="swiper-wrapper" id="upcoming-wrapper"></div>
+    </div>
+</section>
+<section class="Top Rated">
+    <h2>Top Rated</h2>
+    <div class="swiper myTopSwiper">
+        <div class="swiper-wrapper" id="top-wrapper"></div>
+    </div>
+</section>
+<section class="Now Playing">
+    <h2>Now Playing</h2>
+    <div class="swiper myNowSwiper">
+        <div class="swiper-wrapper" id="Now-wrapper"></div>
+    </div>
+</section>
+<section class="Trending">
+    <h2>Trending</h2>
+    <div class="swiper myTrendSwiper">
+        <div class="swiper-wrapper" id="trend-wrapper"></div>
+    </div>
+</section>
+<section class="Trending-Weekly">
+    <h2>Trending-Weekly</h2>
+    <div class="swiper myTrendWeekSwiper">
+        <div class="swiper-wrapper" id="trendWeek-wrapper"></div>
+    </div>
+</section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script></section>
+</body>
+</html>

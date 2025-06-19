@@ -1,0 +1,90 @@
+*{
+    margin:0;
+     font-family: "Montserrat", sans-serif;
+     color: white;
+}
+.hero{
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+h2{
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #151515;
+    color: white;
+    cursor: pointer;
+}
+
+.header-logo img{
+    width: 80px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-logo h1{
+    font-size: 50px;
+}
+.header-nav{
+    display: flex;
+    gap: 100px;
+    padding: 0 50px;
+    font-size: 25px;
+}
+.header-nav nav:hover{
+    color: red;
+}
+.hero-content{
+    width: 40%;
+    padding-bottom: 30px;
+}
+#hero-text{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 90px;
+}
+#hero-date{
+    color: #05fb35;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+#hero-info{
+    margin-top: 10px;
+    line-height: 30px;
+}
+button{
+    color: #151515;
+    padding: 20px 40px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+.main img{
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px gray;
+    
+    /* color: white; */
+    /* padding: 2rem; */
+}
+h2{
+    padding: 30px;
+    color: white;
+}
+.main {
+    background-color: #151515;
+}
