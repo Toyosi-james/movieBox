@@ -4,10 +4,10 @@
      color: white;
 }
 .hero{
-    height: 70vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
-    padding: 2rem;
+    padding: 3rem;
     display: flex;
     align-items: flex-end;
     
@@ -50,7 +50,7 @@ header{
     padding-bottom: 30px;
 }
 #hero-text{
-    font-size: 100px;
+    font-size: 70px;
     font-weight: 900;
     line-height: 90px;
 }
